@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://socialify.git.ci/ManojKumar2920/Space-Nucleus/image?forks=1&issues=1&name=1&owner=1&stargazers=1&theme=Light" alt="Space-Nucleus" />
 
-## Getting Started
+# Space Nucleus
 
-First, run the development server:
+**Space Nucleus** is a 3D animation project built with React Three Fiber, Drei, Next.js, and Tailwind CSS. This project showcases an immersive space-themed animation experience, demonstrating the power and flexibility of modern web technologies in creating interactive 3D graphics.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Interactive 3D Animation**: Utilize React Three Fiber and Drei to create a dynamic and engaging space-themed animation.
+- **Modern UI**: Styled with Tailwind CSS for a clean and responsive design.
+- **Fast and Scalable**: Developed with Next.js for server-side rendering and optimized performance.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To get started with the Space Nucleus project, follow these steps:
 
-## Learn More
+1. **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/your-username/space-nucleus.git
+   cd space-nucleus
+   ```
+2. **Install dependencies:**
+   
+    ```bash
+   npm install
+   ```
+3. Run the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and visit:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   (http://localhost:3000)
+   ```
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **React Three Fiber**: This library allows you to use Three.js in a declarative way within React applications. It's used to create and manipulate 3D scenes with React components.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Drei**: A collection of useful helpers and abstractions for React Three Fiber, making it easier to work with common Three.js elements and effects.
+
+- **Next.js**: A React framework that enables server-side rendering and static site generation, providing a robust structure for building and optimizing web applications.
+
+- **Tailwind CSS**: A utility-first CSS framework used for styling the application. It allows for quick and flexible UI design with a predefined set of classes.
+
+## Project Structure
+
+- `app/`: Contains the application's pages and routing configuration. Each file in this directory represents a route in the application.
+
+- `components/`: Includes React components used throughout the application. This is where you'll find components related to the 3D animation as well as any UI elements.
+
+- `public/`: Stores static assets such as images, fonts, and other files that need to be publicly accessible. Files in this directory can be served directly by the Next.js server.
+
+## Acknowledgements
+
+- [React Three Fiber](https://github.com/pmndrs/react-three-fiber) - A React renderer for Three.js, providing a declarative way to build 3D scenes.
+- [Drei](https://github.com/pmndrs/drei) - A collection of useful helpers and abstractions for React Three Fiber, simplifying common tasks in 3D rendering.
+- [Next.js](https://nextjs.org/) - A powerful React framework that enables server-side rendering and static site generation.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework that allows for rapid UI design with a flexible set of utility classes.
+
+## Contact
+
+For any questions or feedback, please reach out to [manojkumararumainathan@gmail.com](mailto:manojkumararumainathan@gmail.com).
+
